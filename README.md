@@ -17,4 +17,9 @@ Create one R script called run_analysis.R that does the following.
 3. tidy_data_averages.txt - Tidy data set resulting from the transformation.
 
 ## Steps:
-1. The data for the course work can be downloaded at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+1. The data for the course work can be downloaded at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+2. Once downloaded, a UCI HAR Dataset folder will be created in your local drive.
+3. Copy run_analysis.R in the parent folder of UCI HAR Dataset. 
+3. Set this location as working directory using setwd() function in RStudio.
+4. Run source("run_analysis.R")
+5. A new file tiny_data.txt in your working directory.
