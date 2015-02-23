@@ -26,9 +26,10 @@ This CodeBook describes the data, variables and transformations that occur in th
 1. The script requires plyr library.
 2. The run_analysis script:
 
-++ Reads the training and test data sets
-++ Merges the training and test data sets into one data set (vector: subject_data)
-++ Extracts  the measurements on the mean and standard deviation for each measurement
-++ Uses simple/descriptive activity names and label appropriately
-++ Creates independent tidy data set with the average of each variable
-++ Writes new tidy averages data into a text file.
+* Reads the training and test data sets
+* Merges the training and test data sets into one data set (vector: subject_data)
+* Extracts  the measurements on the mean and standard deviation for each measurement
+* Uses simple/descriptive activity names and label appropriately
+* Creates independent tidy data set with the average of each variable
+* Writes new tidy averages data into a text file
+
